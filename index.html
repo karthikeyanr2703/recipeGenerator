@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe App</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,13 +17,13 @@
             <input type="text" placeholder="Search..." id="input">
             <button id="search">Search</button>
           </div>
-          <div id="image"><img src="https://spicecravings.com/wp-content/uploads/2020/12/Tandoori-Chicken-Wings-featured-1.jpg" alt="food"></div>
+          <div id="image"><img src="https://spicecravings.com/wp-content/uploads/2020/12/Tandoori-Chicken-Wings-featured-1.jpg" alt="food" id="foodIcon"></div>
           <div id="name">
             <p>Tandoori Chicken</p>
             <h5>Indian</h5>
           </div>
           <ul id="ingredients">
-            <li>Chicken</li>
+            <!-- <li>Chicken</li>
             <li>Chilli powder</li>
             <li>Turmeric</li>
             <li>Pepper</li>
@@ -27,13 +31,14 @@
             <li>salt</li>
             <li>coriander</li>
             <li>onions</li>
-            <li>garlic</li>
+            <li>garlic</li> -->
           </ul>
           <button id="recipeBtn">Get Recipe</button>
         </div>
         <div id="recipeCard">
           <h5>Recipe-</h5>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vitae et sapiente maiores eos perspiciatis odit laudantium neque, sed repellat vel excepturi, dolores consequatur nemo exercitationem earum beatae? Aspernatur perspiciatis sed sunt. Possimus voluptate, dolorum laborum natus in et quasi adipisci deleniti quam labore. Vitae molestias, voluptate necessitatibus sapiente reprehenderit sed explicabo consectetur, a voluptatibus accusantium molestiae repellendus ab commodi!</p>
+           <span id="close" onclick="closeCard()"><i class="ri-close-circle-fill"></i></span>
         </div>
     </div>
     <script src="script.js" defer></script>
